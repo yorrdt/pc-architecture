@@ -1,0 +1,1 @@
+cmd_/home/admin/admin/apc/laba1/module/lxmod.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/admin/admin/apc/laba1/module/lxmod.ko /home/admin/admin/apc/laba1/module/lxmod.o /home/admin/admin/apc/laba1/module/lxmod.mod.o;  true

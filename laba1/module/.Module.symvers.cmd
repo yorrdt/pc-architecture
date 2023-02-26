@@ -1,0 +1,1 @@
+cmd_/home/admin/admin/apc/laba1/module/Module.symvers := sed 's/\.ko$$/\.o/' /home/admin/admin/apc/laba1/module/modules.order | scripts/mod/modpost  -a  -o /home/admin/admin/apc/laba1/module/Module.symvers -e -i Module.symvers  -N -T -
